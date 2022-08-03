@@ -17,7 +17,8 @@ h1 {
   margin-top: 0;
 }
 
-button, input {
+button,
+input {
   font-size: 0.8em;
 }
 
@@ -63,7 +64,7 @@ button, input {
 }
 
 .list li:nth-child(odd) {
-  background-color: #dddddd;
+  background-color: #ddd;
 }
 
 .form {
