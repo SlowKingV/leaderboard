@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/SlowKingV/leaderboard/issues"
   },
-  "homepage": "https://github.com/SlowKingV/leaderboard#readme"
+  "homepage": "https://github.com/SlowKingV/leaderboard#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
 }
