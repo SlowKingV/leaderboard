@@ -24,11 +24,9 @@ const userInput = document.getElementById('user-input');
 const scoreInput = document.getElementById('score-input');
 const addForm = document.getElementById('add-form');
 
-addForm.addEventListener('submit', (event) => {
+addForm.addEventListener('submit', async (event) => {
   event.preventDefault();
-  postScore(userInput.value, scoreInput.value)
-    .then(() => {
-      userInput.value = '';
-      scoreInput.value = '';
-    });
+  await postScore(userInput.value, scoreInput.value);
+  userInput.value = '';
+  scoreInput.value = '';
 });
