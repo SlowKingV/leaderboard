@@ -17,6 +17,11 @@ h1 {
   margin-top: 0;
 }
 
+button,
+input {
+  font-size: 0.8em;
+}
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -27,11 +32,6 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
-}
-
-button,
-input {
-  font-size: 0.8em;
 }
 
 .button {
