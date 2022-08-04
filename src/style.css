@@ -22,6 +22,18 @@ input {
   font-size: 0.8em;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 .button {
   background-color: #fff;
   border: 3px solid #000;
@@ -42,13 +54,10 @@ input {
 }
 
 .scores {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   column-gap: 1em;
-}
-
-.refresh {
-  align-self: center;
 }
 
 .list {
