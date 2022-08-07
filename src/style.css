@@ -47,7 +47,7 @@ input {
 }
 
 input::placeholder {
-  color: #E87B94;
+  color: #e87b94;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -76,7 +76,7 @@ section {
 }
 
 .button:hover {
-  background-color: #3C162F;
+  background-color: #3c162f;
   color: #fff;
 }
 
@@ -91,7 +91,7 @@ section {
 }
 
 .page-sections {
-  background-color: #5C162E;
+  background-color: #5c162e;
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
   box-shadow: 0 0 5px 5px #0000004d;
@@ -126,7 +126,7 @@ section {
 }
 
 .list li {
-  background-color: #7C162E;
+  background-color: #7c162e;
   border-radius: 5px;
   display: flex;
   padding: 0.3em 1em;
@@ -143,7 +143,7 @@ section {
 }
 
 .list .graph {
-  background-color: #286C13;
+  background-color: #286c13;
   border-radius: 5px;
   height: 100%;
   left: 0;
@@ -152,7 +152,7 @@ section {
 }
 
 .list .position {
-  color: #91A6EC;
+  color: #91a6ec;
 }
 
 .list .score {
